@@ -29,7 +29,7 @@ public class teste {
         countdownLabel.setFont(new Font("Arial", Font.PLAIN, 50));
         countdownLabel.setForeground(Color.WHITE);
         countdownLabel.setHorizontalAlignment(JLabel.CENTER);
-
+r
         frame.setLayout(new GridLayout(3, 1));
         frame.add(timeLabel);
         frame.add(countdownLabel);
