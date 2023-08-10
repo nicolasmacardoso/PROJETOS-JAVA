@@ -21,12 +21,12 @@ public class teste {
         frame.getContentPane().setBackground(Color.BLACK);
 
         timeLabel = new JLabel();
-        timeLabel.setFont(new Font("Arial", Font.BOLD, 36));
+        timeLabel.setFont(new Font("Arial", Font.BOLD, 72));
         timeLabel.setForeground(Color.WHITE);
         timeLabel.setHorizontalAlignment(JLabel.CENTER);
 
         countdownLabel = new JLabel();
-        countdownLabel.setFont(new Font("Arial", Font.PLAIN, 18));
+        countdownLabel.setFont(new Font("Arial", Font.PLAIN, 50));
         countdownLabel.setForeground(Color.WHITE);
         countdownLabel.setHorizontalAlignment(JLabel.CENTER);
 
@@ -73,7 +73,7 @@ public class teste {
         long minutes = (timeDifferenceMillis % (60 * 60 * 1000)) / (60 * 1000);
         long seconds = (timeDifferenceMillis % (60 * 1000)) / 1000;
 
-        countdownLabel.setText("Faltam " + hours + "h " + minutes + "m " + seconds + "s para as 17:30.");
+        countdownLabel.setText("Faltam " + hours + "h " + minutes + "m " + seconds + "s para acabar a aula.");
     }
 
     public static void main(String[] args) {
