@@ -11,7 +11,6 @@ public class Ex10_string {
         String s05 = original.substring(2, 9);
         String s06 = original.replace('a', 'x');
         String s07 = original.replace("abc", "xy");
-
         int i = original.indexOf("bc");
         int j = original.lastIndexOf("bc");
 
