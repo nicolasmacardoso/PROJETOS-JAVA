@@ -26,7 +26,9 @@ public class Ex1_Estrutura {
                 + "%n"
                 + "Medida com oito casas decimais: %f%n"
                 + "Arredondado (três casas decimais: %.3f%n", produto1, preco1, produto2, preco2, idade, codigo, genero, medir, medir);
+
         Locale.setDefault(Locale.US);
+
         System.out.printf("Ponto decimal dos EUA: %.3f", medir);
     }
 
