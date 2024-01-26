@@ -8,8 +8,7 @@ public class Ex1_Estrutura {
 
         String produto1 = "Computador";
         String produto2 = "Mesa de Escritório";
-
-
+        
         int idade = 30;
         int codigo = 5290;
         char genero = 'F';
